@@ -107,11 +107,11 @@ const add = (x, y) => x + y;
 
 You can also use annotation to configure some tests:
 
-~~~js#assert=chai
+~~~js
 /**
  * This function adds two numbers:
  * 
- * ```js
+ * ```js#assert=chai
  * const add = require('./add');
  * 
  * add(1, 2).should.equal(3);
