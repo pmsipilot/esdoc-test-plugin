@@ -1,0 +1,6 @@
+public/
+
+.eslintrc
+.gitignore
+.travis.yml
+README.md

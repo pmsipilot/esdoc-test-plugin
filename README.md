@@ -126,7 +126,7 @@ const add = (x, y) => x + y;
 ~~~
 
 Annotation are written next to the language with the following format: `js[[#name[=value]]...]`. If the annotation has no
-value, it's default value will be `true`.
+value, its default value will be `true`.
 
 The `path` and `assert` configuration directives can be overridden at the test level using annotations. You can also use
 the `skip` annotation to mark a test as skipped.

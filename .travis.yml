@@ -13,3 +13,4 @@ cache:
 script:
     - npm install
     - npm run cs
+    - npm run doc

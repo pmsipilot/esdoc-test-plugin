@@ -1,0 +1,31 @@
+{
+    "title": "esdoc-test-plugin",
+    "source": "./src",
+    "destination": "./public",
+    "experimentalProposal": {
+        "classProperties": true,
+        "objectRestSpread": true,
+        "decorators": true,
+        "doExpressions": true,
+        "functionBind": true,
+        "asyncGenerators": true,
+        "exportExtensions": true,
+        "dynamicImport": true
+    },
+    "manual": {
+        "globalIndex": true,
+        "index": "README.md",
+        "changelog": ["./CHANGELOG.md"],
+        "design": ["./README.md"]
+    },
+    "unexportIdentifier": true,
+    "plugins": [
+        {
+            "name": "./plugin.js",
+            "option": {
+                "path": "./",
+                "assert": "chai"
+            }
+        }
+    ]
+}
