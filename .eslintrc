@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "airbnb-base",
+        "plugin:import/errors"
+    ],
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "comma-dangle": ["error", "never"],
+        "max-len": 0,
+        "prefer-template": 1,
+        "no-param-reassign": 1,
+        "no-bitwise": ["error", { "allow": ["<<", ">>"] }]
+    },
+    "globals": {
+        "angular": true
+    }
+}
