@@ -91,11 +91,11 @@ class Test {
                 break;
 
             case 'expect':
-                assert = `const expect = require('expect');`;
+                assert = 'const expect = require(\'expect\');';
                 break;
 
             case 'expect.js':
-                assert = `const expect = require('expect.js');`;
+                assert = 'const expect = require(\'expect.js\');';
                 break;
 
             case 'node':
