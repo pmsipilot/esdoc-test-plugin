@@ -1,6 +1,6 @@
 {
   "name": "esdoc-test-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Documentation test plugin for ESDoc",
   "main": "plugin.js",
   "author": "Julien Bianchi <julien.bianchi@groupepsih.com>",
